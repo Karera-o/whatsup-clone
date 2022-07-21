@@ -1,0 +1,13 @@
+@media screen and (max-width:900px) {
+    #app_leftSide{
+        flex-basis: 45%;
+        height: 100%;
+        background-color: darkolivegreen;
+      
+      }
+      #app_mainSide{
+        flex-basis: 55%;
+        height: 100%;
+        background-color: dodgerblue;
+      }
+}
