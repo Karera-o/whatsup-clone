@@ -1,0 +1,40 @@
+#rightSideHeader{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 9.5%;
+    overflow: hidden;
+    background-color: #202c33;
+}
+
+#rightSideHeader span{
+    margin: 10px 10px 10px 20px ;
+}
+#rightSideHeader span img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+#rightSideHeader p{
+    /* background-color: aqua; */
+    color: #e9edef;
+}
+#rightSideHeader ul{
+    position: relative;
+    left: 75%;
+    width: 100px;
+}
+@media screen and (max-width:900px){
+    #rightSideHeader ul{
+        position: relative;
+        left: 55%;
+        width: 100px;
+    }
+}
+#rightSideHeader ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 1.5rem;
+    color: #aebac1;
+}

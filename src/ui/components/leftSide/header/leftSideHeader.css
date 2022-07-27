@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#leftSideHeader_header{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #202c33;
+    overflow: hidden;
+    align-items: center;
+}
+#leftSideHeader_header span{
+    display: inline-block;
+    margin: 20px;
+    width: 40%;
+    justify-self: flex-start;
+}
+#leftSideHeader_header span img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+#leftSideHeader_ul{
+    display: inline-block;
+    margin-left: 53px;
+}
+@media screen and (max-width:900px) {
+    #leftSideHeader_ul{
+        margin-left: 0;
+      }
+}
+#leftSideHeader_ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 1.5rem;
+    color: #aebac1;
+}
+
+#leftSideHeader_two{
+    display: flex;
+    align-items: center;
+    background-color: #25353f;
+    height: 90px;
+}
+#leftSideHeader_two div{
+    display: inline-block;
+}
+#leftSideHeader_two div:nth-child(1){
+    background-color: rgb(83, 203, 207);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+}
+#notification_icon{
+    position: relative;
+    left: 20px;
+}
+#notification_header{
+    margin-left: 30px;
+}
+#notification_header h1{
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e9edef;
+}
+#notification_header p {
+    margin: 0;
+    padding: 0;
+}
+#notification_header p a{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color: #e9edef;
+    text-decoration: none;
+}
+#notification_header p a:hover{
+    text-decoration: underline;
+}
+
+#leftSideHeader_three{
+    display: flex;
+    background-color: #111b21;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid #324149;
+}
+#leftSideHeader_three div{
+    display: flex;
+    background-color: #2b3b46;
+    width: 80%;
+    margin-left: 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+#leftSideHeader_three input{
+    width: 70%;
+    height: 85%;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+#leftSideHeader_three input::placeholder{
+    color: #8696a0;
+}
+#leftSideHeader_three input:focus{
+    color: wheat;
+}
+#leftSideHeader_three #searchIcon{
+    background-color: inherit;
+    margin: 0 10px;
+    color: #8696a0;
+}
+#leftSideHeader_three span{
+   
+    margin: 0 auto;
+    font-size: 20px;
+    color: #aebac1;
+}

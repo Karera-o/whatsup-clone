@@ -1,0 +1,17 @@
+#rightSideMain{
+    height: 80%;
+    background-image: url("whatsupBg.jpg");
+    background-position: center;
+    background-image: url("whatsupBg.png");
+    /* background-repeat: no-repeat; */
+    background-size: 50%;
+    background-color: #202c33;
+    opacity: .1;
+}
+@media screen and (max-width:900px) {
+
+    #rightSideMain{
+        background-size: 100%;
+    }
+    
+}
