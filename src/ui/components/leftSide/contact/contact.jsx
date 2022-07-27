@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import "./contact.css";
 import profile from "/home/karera/Videos/React/whatsup/src/ui/resources/profile.jpg";
+import aisha from "./aisha.jpg";
+import james from "./james.jpg";
+import marley from "./marley.jpg";
+import josh from "./josh.jpg";
+import sandra from "./sandra.jpg";
 
 const person1={
     src: profile,
@@ -8,27 +13,27 @@ const person1={
     message:"Hey,do you have the assignment?"
 }
 const person2={
-    src: profile,
+    src: james,
     name:"James",
     message:"How are you doing brother"
 }
 const person3={
-    src: profile,
+    src: aisha,
     name:"Aisha Nusla",
     message:"The lecture is coming "
 }
 const person4={
-    src: profile,
+    src: josh,
     name:"Josh",
     message:"Okay"
 }
 const person5={
-    src: profile,
+    src: marley,
     name:"Marley",
     message:"It will work as expected"
 }
 const person6={
-    src: profile,
+    src: sandra,
     name:"Sandra",
     message:"longtime"
 }
