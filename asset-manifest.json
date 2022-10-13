@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/whatsup-clone/static/css/main.3d1d75ee.css",
+    "main.js": "/whatsup-clone/static/js/main.e974e2c7.js",
+    "static/media/james.jpg": "/whatsup-clone/static/media/james.099276f7bec4b61b89d2.jpg",
+    "static/media/josh.jpg": "/whatsup-clone/static/media/josh.417a57895dbaadf009b5.jpg",
+    "static/media/sandra.jpg": "/whatsup-clone/static/media/sandra.f482f22132188558c1ed.jpg",
+    "static/media/aisha.jpg": "/whatsup-clone/static/media/aisha.64b75dc9504a098e72bc.jpg",
+    "static/media/profile.jpg": "/whatsup-clone/static/media/profile.c719eba337a048fcee04.jpg",
+    "static/media/marley.jpg": "/whatsup-clone/static/media/marley.f2e1800b09b8ab417c04.jpg",
+    "static/media/whatsupBg.jpg": "/whatsup-clone/static/media/whatsupBg.b1653cc5851695ebba34.jpg",
+    "index.html": "/whatsup-clone/index.html",
+    "main.3d1d75ee.css.map": "/whatsup-clone/static/css/main.3d1d75ee.css.map",
+    "main.e974e2c7.js.map": "/whatsup-clone/static/js/main.e974e2c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d1d75ee.css",
+    "static/js/main.e974e2c7.js"
+  ]
+}
