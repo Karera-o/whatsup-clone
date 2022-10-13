@@ -1,7 +1,13 @@
-#root{
-  height: 630px;
+
+html,body{
   width: 100%;
-  background-color: blue;
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
