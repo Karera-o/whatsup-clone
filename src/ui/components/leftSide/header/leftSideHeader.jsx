@@ -4,7 +4,7 @@ import {TbCircleDashed,TbMessage} from "react-icons/tb";
 import {BsThreeDotsVertical,BsFilter} from "react-icons/bs";
 import {IoIosSearch,IoIosNotificationsOff} from "react-icons/io";
 // import {AiOutlineArrowLeft} from "react-icons/ai";
-import profile from "/home/karera/Videos/React/whatsup/src/ui/resources/profile.jpg"; 
+import profile from "../../../resources/profile.jpg"; 
 
 
 
@@ -27,7 +27,7 @@ export class LeftSideHeader extends Component{
                     </div>
                     <div id="notification_header">
                         <h1>Get notified of new messages</h1>
-                        <p><a href="">Turn on the desktop notifications</a> </p>
+                        <p><a href="/">Turn on the desktop notifications</a> </p>
                     </div>
                 </section>
                 <section id="leftSideHeader_three">

@@ -1,6 +1,6 @@
 import React from "react";
 import "./rightSideMain.css";
-import whatsupBg from "./whatsupBg.jpg";
+// import whatsupBg from "./whatsupBg.jpg";
 
 
 export class RightSideMain extends React.Component{

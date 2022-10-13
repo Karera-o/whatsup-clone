@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./contact.css";
-import profile from "/home/karera/Videos/React/whatsup/src/ui/resources/profile.jpg";
+import profile from "../../../resources/profile.jpg"; 
 import aisha from "./aisha.jpg";
 import james from "./james.jpg";
 import marley from "./marley.jpg";

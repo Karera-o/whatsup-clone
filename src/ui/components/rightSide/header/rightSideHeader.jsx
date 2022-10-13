@@ -1,6 +1,6 @@
 import React from "react";
 import "./rightSideHeader.css";
-import profile from "/home/karera/Videos/React/whatsup/src/ui/resources/profile.jpg";
+import profile from "../../../resources/profile.jpg"; 
 import {BsSearch,BsThreeDotsVertical} from "react-icons/bs";
 
 export class RightSideHeader extends React.Component{
